@@ -1,0 +1,85 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+  background-image: linear-gradient(to top left,#001a66,#000033);
+}
+
+#level-title {
+  font-family: 'Shadows Into Light','Press Start 2P', cursive;
+  font-size: 5rem;
+  margin:  3%;
+  color: #001a1a;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 7px solid black;
+  border-radius: 20%;
+  box-shadow: 0 15px 40px #000000;
+}
+
+.game-over {
+  background-color: red;
+  background-image: linear-gradient(red,red);
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  background-image: linear-gradient(to top right,#ff4d4d,#ff0000);
+}
+
+.green {
+  background-color: green;
+  background-image: linear-gradient(to top left,#80ff80,#00cc00);
+}
+
+.blue {
+  background-color: blue;
+  background-image: linear-gradient(to bottom right,#99ffff,#33ccff);
+}
+
+.yellow {
+  background-color: yellow;
+  background-image: linear-gradient(to bottom left,#ffff80,#ffff00);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+.glow {
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+.cred{
+  display: inline-block;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1rem;
+  color: white;
+  height: 10px;
+  margin: 0;
+}
