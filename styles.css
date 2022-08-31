@@ -3,6 +3,13 @@ body {
   background-color: #011F3F;
   background-image: linear-gradient(to top left,#001a66,#000033);
 }
+html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+  
 
 #level-title {
   font-family: 'Shadows Into Light','Press Start 2P', cursive;
